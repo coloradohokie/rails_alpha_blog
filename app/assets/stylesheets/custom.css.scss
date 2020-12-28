@@ -1,0 +1,30 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: #444 !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+#logo {
+    float: left;
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    
+    &:hover {
+        color: #F00;
+        text-decoration: none;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+#home-container {
+    margin-top: 1.7rem;
+}
